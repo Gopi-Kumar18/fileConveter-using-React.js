@@ -1,0 +1,40 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-item {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.converter-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.pdf-to-docx, .docx-to-pdf {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 45%;
+}
